@@ -1,0 +1,6 @@
+1,Antioquia,Medellin,Tio Pepe Medellin
+2,Cundinamarca,Bogota,Tio Pepe Bogota
+3,Atlantico,Barranquilla,Tio Pepe Barranquilla
+4,Boyaca,Tunja,Tio Pepe Tunja
+5,Meta,Vilavicencio,Tio Pepe Villavicencio
+6,Bolivar,Cartagena,Tio Pepe Cartagena

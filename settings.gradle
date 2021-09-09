@@ -1,0 +1,14 @@
+rootProject.name = 'TioPepe'
+
+include ':app-service'
+include ':model'
+include ':usecase'
+project(':app-service').projectDir = file('./applications/app-service')
+project(':model').projectDir = file('./domain/model')
+project(':usecase').projectDir = file('./domain/usecase')
+include ':util-carga-datos'
+project(':util-carga-datos').projectDir = file('./infrastructure/helpers/util-carga-datos')
+include ':tienda-service-impl'
+project(':tienda-service-impl').projectDir = file('./infrastructure/driven-adapters/tienda-service-impl')
+include ':tienda-controller'
+project(':tienda-controller').projectDir = file('./infrastructure/entry-points/tienda-controller')

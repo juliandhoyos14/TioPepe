@@ -1,0 +1,6 @@
+dependencies {
+    implementation project(':model')
+    implementation project(':util-carga-datos')
+    implementation 'org.springframework:spring-context'
+    implementation 'javax.annotation:javax.annotation-api:1.3.2'
+}
